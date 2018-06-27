@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B647EDC20B3EE40006675B7 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B647EDB20B3EE40006675B7 /* Logo.png */; };
+		200E1FB12045337E00198144 /* PaymentPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200E1FB02045337E00198144 /* PaymentPageViewController.swift */; };
+		2014D29A203E8750000E4E52 /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2014D299203E8750000E4E52 /* LoginPageViewController.swift */; };
+		2014D29C203E8BAA000E4E52 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2014D29B203E8BAA000E4E52 /* HomePageViewController.swift */; };
+		2014D2A1203E8EEC000E4E52 /* ProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2014D2A0203E8EEC000E4E52 /* ProductItem.swift */; };
+		2014D2A3203EB0F0000E4E52 /* RegsiterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2014D2A2203EB0F0000E4E52 /* RegsiterPageViewController.swift */; };
+		2015E55A204001C600A217CF /* Logout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2015E559204001C600A217CF /* Logout.swift */; };
+		201F08C620468DE700606994 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201F08C520468DE700606994 /* CustomTableViewCell.swift */; };
+		201F08C820469E1900606994 /* ViewCartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201F08C720469E1900606994 /* ViewCartTableViewCell.swift */; };
+		2022F5102043E7E400CA119A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2022F50F2043E7E400CA119A /* User.swift */; };
+		2022F51620440A8100CA119A /* ViewCartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2022F51520440A8100CA119A /* ViewCartTableViewController.swift */; };
+		2022F51820440A9E00CA119A /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2022F51720440A9E00CA119A /* Cart.swift */; };
+		20F4D7FB203DA93B000CCB42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F4D7FA203DA93B000CCB42 /* AppDelegate.swift */; };
+		20F4D7FD203DA93B000CCB42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F4D7FC203DA93B000CCB42 /* ViewController.swift */; };
+		20F4D800203DA93B000CCB42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F4D7FE203DA93B000CCB42 /* Main.storyboard */; };
+		20F4D802203DA93B000CCB42 /* logo in Resources */ = {isa = PBXBuildFile; fileRef = 20F4D801203DA93B000CCB42 /* logo */; };
+		20F4D805203DA93B000CCB42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F4D803203DA93B000CCB42 /* LaunchScreen.storyboard */; };
+		20F4D810203DA93B000CCB42 /* NetfloristIOSApplicationIoSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F4D80F203DA93B000CCB42 /* NetfloristIOSApplicationIoSTests.swift */; };
+		20F4D81B203DA93B000CCB42 /* NetfloristIOSApplicationIoSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F4D81A203DA93B000CCB42 /* NetfloristIOSApplicationIoSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20F4D80C203DA93B000CCB42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20F4D7EF203DA93B000CCB42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20F4D7F6203DA93B000CCB42;
+			remoteInfo = PickNPayDemoShoppingApplicationIoS;
+		};
+		20F4D817203DA93B000CCB42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20F4D7EF203DA93B000CCB42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20F4D7F6203DA93B000CCB42;
+			remoteInfo = PickNPayDemoShoppingApplicationIoS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B647EDB20B3EE40006675B7 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		200E1FB02045337E00198144 /* PaymentPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentPageViewController.swift; sourceTree = "<group>"; };
+		2014D299203E8750000E4E52 /* LoginPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
+		2014D29B203E8BAA000E4E52 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		2014D2A0203E8EEC000E4E52 /* ProductItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItem.swift; sourceTree = "<group>"; };
+		2014D2A2203EB0F0000E4E52 /* RegsiterPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegsiterPageViewController.swift; sourceTree = "<group>"; };
+		2015E559204001C600A217CF /* Logout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logout.swift; sourceTree = "<group>"; };
+		201F08C520468DE700606994 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		201F08C720469E1900606994 /* ViewCartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCartTableViewCell.swift; sourceTree = "<group>"; };
+		2022F50F2043E7E400CA119A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2022F51520440A8100CA119A /* ViewCartTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCartTableViewController.swift; sourceTree = "<group>"; };
+		2022F51720440A9E00CA119A /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		20F4D7F7203DA93B000CCB42 /* NetfloristIOSApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetfloristIOSApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20F4D7FA203DA93B000CCB42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20F4D7FC203DA93B000CCB42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20F4D7FF203DA93B000CCB42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20F4D801203DA93B000CCB42 /* logo */ = {isa = PBXFileReference; lastKnownFileType = folder; path = logo; sourceTree = "<group>"; };
+		20F4D804203DA93B000CCB42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20F4D806203DA93B000CCB42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20F4D80B203DA93B000CCB42 /* NetfloristIOSApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetfloristIOSApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20F4D80F203DA93B000CCB42 /* NetfloristIOSApplicationIoSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetfloristIOSApplicationIoSTests.swift; sourceTree = "<group>"; };
+		20F4D811203DA93B000CCB42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20F4D816203DA93B000CCB42 /* NetfloristIOSApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetfloristIOSApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20F4D81A203DA93B000CCB42 /* NetfloristIOSApplicationIoSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetfloristIOSApplicationIoSUITests.swift; sourceTree = "<group>"; };
+		20F4D81C203DA93B000CCB42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20F4D7F4203DA93B000CCB42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20F4D808203DA93B000CCB42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20F4D813203DA93B000CCB42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2014D29D203E8EB1000E4E52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2014D2A0203E8EEC000E4E52 /* ProductItem.swift */,
+				2022F50F2043E7E400CA119A /* User.swift */,
+				2022F51720440A9E00CA119A /* Cart.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		20F4D7EE203DA93B000CCB42 = {
+			isa = PBXGroup;
+			children = (
+				20F4D7F9203DA93B000CCB42 /* NetfloristIOSApplicationoS */,
+				20F4D80E203DA93B000CCB42 /* NetfloristIOSApplicationoSTests */,
+				20F4D819203DA93B000CCB42 /* NetfloristIOSApplicationIoSUITests */,
+				20F4D7F8203DA93B000CCB42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20F4D7F8203DA93B000CCB42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20F4D7F7203DA93B000CCB42 /* NetfloristIOSApplication.app */,
+				20F4D80B203DA93B000CCB42 /* NetfloristIOSApplicationTests.xctest */,
+				20F4D816203DA93B000CCB42 /* NetfloristIOSApplicationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20F4D7F9203DA93B000CCB42 /* NetfloristIOSApplicationoS */ = {
+			isa = PBXGroup;
+			children = (
+				2014D29D203E8EB1000E4E52 /* Model */,
+				20F4D82C203DAC81000CCB42 /* Controllers */,
+				20F4D829203DAAD4000CCB42 /* Images */,
+				20F4D7FA203DA93B000CCB42 /* AppDelegate.swift */,
+				20F4D7FE203DA93B000CCB42 /* Main.storyboard */,
+				20F4D801203DA93B000CCB42 /* logo */,
+				20F4D803203DA93B000CCB42 /* LaunchScreen.storyboard */,
+				20F4D806203DA93B000CCB42 /* Info.plist */,
+			);
+			path = NetfloristIOSApplicationoS;
+			sourceTree = "<group>";
+		};
+		20F4D80E203DA93B000CCB42 /* NetfloristIOSApplicationoSTests */ = {
+			isa = PBXGroup;
+			children = (
+				20F4D80F203DA93B000CCB42 /* NetfloristIOSApplicationIoSTests.swift */,
+				20F4D811203DA93B000CCB42 /* Info.plist */,
+			);
+			path = NetfloristIOSApplicationoSTests;
+			sourceTree = "<group>";
+		};
+		20F4D819203DA93B000CCB42 /* NetfloristIOSApplicationIoSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20F4D81A203DA93B000CCB42 /* NetfloristIOSApplicationIoSUITests.swift */,
+				20F4D81C203DA93B000CCB42 /* Info.plist */,
+			);
+			path = NetfloristIOSApplicationIoSUITests;
+			sourceTree = "<group>";
+		};
+		20F4D829203DAAD4000CCB42 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1B647EDB20B3EE40006675B7 /* Logo.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		20F4D82C203DAC81000CCB42 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				20F4D7FC203DA93B000CCB42 /* ViewController.swift */,
+				2014D299203E8750000E4E52 /* LoginPageViewController.swift */,
+				2014D29B203E8BAA000E4E52 /* HomePageViewController.swift */,
+				2014D2A2203EB0F0000E4E52 /* RegsiterPageViewController.swift */,
+				2015E559204001C600A217CF /* Logout.swift */,
+				2022F51520440A8100CA119A /* ViewCartTableViewController.swift */,
+				200E1FB02045337E00198144 /* PaymentPageViewController.swift */,
+				201F08C520468DE700606994 /* CustomTableViewCell.swift */,
+				201F08C720469E1900606994 /* ViewCartTableViewCell.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20F4D7F6203DA93B000CCB42 /* NetfloristIOSApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20F4D81F203DA93B000CCB42 /* Build configuration list for PBXNativeTarget "NetfloristIOSApplication" */;
+			buildPhases = (
+				20F4D7F3203DA93B000CCB42 /* Sources */,
+				20F4D7F4203DA93B000CCB42 /* Frameworks */,
+				20F4D7F5203DA93B000CCB42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetfloristIOSApplication;
+			productName = PickNPayDemoShoppingApplicationIoS;
+			productReference = 20F4D7F7203DA93B000CCB42 /* NetfloristIOSApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20F4D80A203DA93B000CCB42 /* NetfloristIOSApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20F4D822203DA93B000CCB42 /* Build configuration list for PBXNativeTarget "NetfloristIOSApplicationTests" */;
+			buildPhases = (
+				20F4D807203DA93B000CCB42 /* Sources */,
+				20F4D808203DA93B000CCB42 /* Frameworks */,
+				20F4D809203DA93B000CCB42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20F4D80D203DA93B000CCB42 /* PBXTargetDependency */,
+			);
+			name = NetfloristIOSApplicationTests;
+			productName = PickNPayDemoShoppingApplicationIoSTests;
+			productReference = 20F4D80B203DA93B000CCB42 /* NetfloristIOSApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20F4D815203DA93B000CCB42 /* NetfloristIOSApplicationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20F4D825203DA93B000CCB42 /* Build configuration list for PBXNativeTarget "NetfloristIOSApplicationUITests" */;
+			buildPhases = (
+				20F4D812203DA93B000CCB42 /* Sources */,
+				20F4D813203DA93B000CCB42 /* Frameworks */,
+				20F4D814203DA93B000CCB42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20F4D818203DA93B000CCB42 /* PBXTargetDependency */,
+			);
+			name = NetfloristIOSApplicationUITests;
+			productName = PickNPayDemoShoppingApplicationIoSUITests;
+			productReference = 20F4D816203DA93B000CCB42 /* NetfloristIOSApplicationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20F4D7EF203DA93B000CCB42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Reverside Software Solutions";
+				TargetAttributes = {
+					20F4D7F6203DA93B000CCB42 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					20F4D80A203DA93B000CCB42 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20F4D7F6203DA93B000CCB42;
+					};
+					20F4D815203DA93B000CCB42 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20F4D7F6203DA93B000CCB42;
+					};
+				};
+			};
+			buildConfigurationList = 20F4D7F2203DA93B000CCB42 /* Build configuration list for PBXProject "NetfloristIOSApplication" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20F4D7EE203DA93B000CCB42;
+			productRefGroup = 20F4D7F8203DA93B000CCB42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20F4D7F6203DA93B000CCB42 /* NetfloristIOSApplication */,
+				20F4D80A203DA93B000CCB42 /* NetfloristIOSApplicationTests */,
+				20F4D815203DA93B000CCB42 /* NetfloristIOSApplicationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20F4D7F5203DA93B000CCB42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F4D805203DA93B000CCB42 /* LaunchScreen.storyboard in Resources */,
+				1B647EDC20B3EE40006675B7 /* Logo.png in Resources */,
+				20F4D802203DA93B000CCB42 /* logo in Resources */,
+				20F4D800203DA93B000CCB42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20F4D809203DA93B000CCB42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20F4D814203DA93B000CCB42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20F4D7F3203DA93B000CCB42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2015E55A204001C600A217CF /* Logout.swift in Sources */,
+				2014D29C203E8BAA000E4E52 /* HomePageViewController.swift in Sources */,
+				200E1FB12045337E00198144 /* PaymentPageViewController.swift in Sources */,
+				2014D29A203E8750000E4E52 /* LoginPageViewController.swift in Sources */,
+				2014D2A3203EB0F0000E4E52 /* RegsiterPageViewController.swift in Sources */,
+				2022F5102043E7E400CA119A /* User.swift in Sources */,
+				201F08C620468DE700606994 /* CustomTableViewCell.swift in Sources */,
+				2014D2A1203E8EEC000E4E52 /* ProductItem.swift in Sources */,
+				201F08C820469E1900606994 /* ViewCartTableViewCell.swift in Sources */,
+				2022F51620440A8100CA119A /* ViewCartTableViewController.swift in Sources */,
+				2022F51820440A9E00CA119A /* Cart.swift in Sources */,
+				20F4D7FD203DA93B000CCB42 /* ViewController.swift in Sources */,
+				20F4D7FB203DA93B000CCB42 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20F4D807203DA93B000CCB42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F4D810203DA93B000CCB42 /* NetfloristIOSApplicationIoSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20F4D812203DA93B000CCB42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F4D81B203DA93B000CCB42 /* NetfloristIOSApplicationIoSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20F4D80D203DA93B000CCB42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20F4D7F6203DA93B000CCB42 /* NetfloristIOSApplication */;
+			targetProxy = 20F4D80C203DA93B000CCB42 /* PBXContainerItemProxy */;
+		};
+		20F4D818203DA93B000CCB42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20F4D7F6203DA93B000CCB42 /* NetfloristIOSApplication */;
+			targetProxy = 20F4D817203DA93B000CCB42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20F4D7FE203DA93B000CCB42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20F4D7FF203DA93B000CCB42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20F4D803203DA93B000CCB42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20F4D804203DA93B000CCB42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20F4D81D203DA93B000CCB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20F4D81E203DA93B000CCB42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20F4D820203DA93B000CCB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PickNPayDemoShoppingApplicationIoS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reverside.levertkabe.PickNPayDemoShoppingApplicationIoS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20F4D821203DA93B000CCB42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PickNPayDemoShoppingApplicationIoS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reverside.levertkabe.PickNPayDemoShoppingApplicationIoS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		20F4D823203DA93B000CCB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PickNPayDemoShoppingApplicationIoSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reverside.levertkabe.PickNPayDemoShoppingApplicationIoSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetfloristIOSApplication.app/NetfloristIOSApplication";
+			};
+			name = Debug;
+		};
+		20F4D824203DA93B000CCB42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PickNPayDemoShoppingApplicationIoSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reverside.levertkabe.PickNPayDemoShoppingApplicationIoSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetfloristIOSApplication.app/NetfloristIOSApplication";
+			};
+			name = Release;
+		};
+		20F4D826203DA93B000CCB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PickNPayDemoShoppingApplicationIoSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reverside.levertkabe.PickNPayDemoShoppingApplicationIoSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PickNPayDemoShoppingApplicationIoS;
+			};
+			name = Debug;
+		};
+		20F4D827203DA93B000CCB42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PickNPayDemoShoppingApplicationIoSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reverside.levertkabe.PickNPayDemoShoppingApplicationIoSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PickNPayDemoShoppingApplicationIoS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20F4D7F2203DA93B000CCB42 /* Build configuration list for PBXProject "NetfloristIOSApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20F4D81D203DA93B000CCB42 /* Debug */,
+				20F4D81E203DA93B000CCB42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20F4D81F203DA93B000CCB42 /* Build configuration list for PBXNativeTarget "NetfloristIOSApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20F4D820203DA93B000CCB42 /* Debug */,
+				20F4D821203DA93B000CCB42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20F4D822203DA93B000CCB42 /* Build configuration list for PBXNativeTarget "NetfloristIOSApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20F4D823203DA93B000CCB42 /* Debug */,
+				20F4D824203DA93B000CCB42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20F4D825203DA93B000CCB42 /* Build configuration list for PBXNativeTarget "NetfloristIOSApplicationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20F4D826203DA93B000CCB42 /* Debug */,
+				20F4D827203DA93B000CCB42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20F4D7EF203DA93B000CCB42 /* Project object */;
+}

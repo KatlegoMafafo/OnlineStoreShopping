@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PickNPayDemoShoppingApplicationIoS/Controllers/ViewCartTableViewCell.swift"
+            timestampString = "548345747.657395"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "ViewCartTableViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PickNPayDemoShoppingApplicationIoS.ViewCartTableViewCell.prodprice.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "PickNPayDemoShoppingApplicationIoS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reversidesoftwaresolution/Desktop/iOSPicknPayApplicationDEMO/PickNPayDemoShoppingApplicationIoS/PickNPayDemoShoppingApplicationIoS/Controllers/ViewCartTableViewCell.swift"
+                  timestampString = "548345747.7547899"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "79">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PickNPayDemoShoppingApplicationIoS.ViewCartTableViewCell.prodprice.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "PickNPayDemoShoppingApplicationIoS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reversidesoftwaresolution/Desktop/iOSPicknPayApplicationDEMO/PickNPayDemoShoppingApplicationIoS/PickNPayDemoShoppingApplicationIoS/Controllers/ViewCartTableViewCell.swift"
+                  timestampString = "548345747.756928"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "90">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PickNPayDemoShoppingApplicationIoS.ViewCartTableViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; PickNPayDemoShoppingApplicationIoS.ViewCartTableViewCell"
+                  moduleName = "PickNPayDemoShoppingApplicationIoS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reversidesoftwaresolution/Desktop/iOSPicknPayApplicationDEMO/PickNPayDemoShoppingApplicationIoS/PickNPayDemoShoppingApplicationIoS/Controllers/ViewCartTableViewCell.swift"
+                  timestampString = "548345747.76054"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "386">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PickNPayDemoShoppingApplicationIoS.ViewCartTableViewCell.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;PickNPayDemoShoppingApplicationIoS.ViewCartTableViewCell&gt;"
+                  moduleName = "PickNPayDemoShoppingApplicationIoS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reversidesoftwaresolution/Desktop/iOSPicknPayApplicationDEMO/PickNPayDemoShoppingApplicationIoS/PickNPayDemoShoppingApplicationIoS/Controllers/ViewCartTableViewCell.swift"
+                  timestampString = "548345747.762303"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "302">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
